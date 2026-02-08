@@ -1,0 +1,187 @@
+2026-02-08T21:25:29.060940Z TRACE ThreadId(01) version: 1.18.1
+2026-02-08T21:25:29.061045Z TRACE ThreadId(01) platform: windows
+2026-02-08T21:25:29.061060Z TRACE ThreadId(01) args: [
+    "C:\\Users\\matik\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrettMayson.HEMTT_Microsoft.Winget.Source_8wekyb3d8bbwe\\hemtt.exe",
+    "launch",
+]
+2026-02-08T21:25:29.062689Z DEBUG ThreadId(01) using global config directory: "C:\\Users\\matik\\AppData\\Roaming\\hemtt"
+2026-02-08T21:25:29.063084Z TRACE ThreadId(01) launch config: LaunchOptions { workshop: ["1638341685", "3499977893", "450814997", "463939057"], dlc: [], presets: [], optionals: [], mission: None, dev_mission: None, parameters: [], executable: None, binarize: None, file_patching: None, instances: None, rapify: None }
+2026-02-08T21:25:29.063608Z DEBUG ThreadId(01) Arma 3 found at: C:\Program Files (x86)\Steam\steamapps\common\Arma 3
+2026-02-08T21:25:29.063849Z TRACE ThreadId(01) using temporary folder: "C:\\Users\\matik\\AppData\\Local\\Temp\\hemtt\\Users_matik_Desktop_merlbtest_Bangalore_torpedo_BangaloreTorpedo"
+2026-02-08T21:25:29.063859Z TRACE ThreadId(01) using project folder: "C:\\Users\\matik\\Desktop\\merlbtest\\Bangalore_torpedo\\BangaloreTorpedo"
+2026-02-08T21:25:29.063891Z TRACE ThreadId(01) using out folder: "C:\\Users\\matik\\Desktop\\merlbtest\\Bangalore_torpedo\\BangaloreTorpedo\\.hemttout"
+2026-02-08T21:25:29.064186Z TRACE ThreadId(01) using build folder: "C:\\Users\\matik\\Desktop\\merlbtest\\Bangalore_torpedo\\BangaloreTorpedo\\.hemttout\\dev"
+2026-02-08T21:25:29.071673Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/bangalore/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\matik\\Desktop\\merlbtest\\Bangalore_torpedo\\BangaloreTorpedo\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\matik\\AppData\\Local\\Temp\\hemtt\\Users_matik_Desktop_merlbtest_Bangalore_torpedo_BangaloreTorpedo\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\matik\\Desktop\\merlbtest\\Bangalore_torpedo\\BangaloreTorpedo" } } } } } }] } } }
+2026-02-08T21:25:29.071782Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/bangalore/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\matik\\Desktop\\merlbtest\\Bangalore_torpedo\\BangaloreTorpedo\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\matik\\AppData\\Local\\Temp\\hemtt\\Users_matik_Desktop_merlbtest_Bangalore_torpedo_BangaloreTorpedo\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\matik\\Desktop\\merlbtest\\Bangalore_torpedo\\BangaloreTorpedo" } } } } } }] } } }
+2026-02-08T21:25:29.073261Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/main/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\matik\\Desktop\\merlbtest\\Bangalore_torpedo\\BangaloreTorpedo\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\matik\\AppData\\Local\\Temp\\hemtt\\Users_matik_Desktop_merlbtest_Bangalore_torpedo_BangaloreTorpedo\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\matik\\Desktop\\merlbtest\\Bangalore_torpedo\\BangaloreTorpedo" } } } } } }] } } }
+2026-02-08T21:25:29.074172Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/main/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\matik\\Desktop\\merlbtest\\Bangalore_torpedo\\BangaloreTorpedo\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\matik\\AppData\\Local\\Temp\\hemtt\\Users_matik_Desktop_merlbtest_Bangalore_torpedo_BangaloreTorpedo\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\matik\\Desktop\\merlbtest\\Bangalore_torpedo\\BangaloreTorpedo" } } } } } }] } } }
+2026-02-08T21:25:29.074707Z TRACE ThreadId(01) checking for version macro in VfsPath { path: "/addons/main/script_version.hpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\matik\\Desktop\\merlbtest\\Bangalore_torpedo\\BangaloreTorpedo\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\matik\\AppData\\Local\\Temp\\hemtt\\Users_matik_Desktop_merlbtest_Bangalore_torpedo_BangaloreTorpedo\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\matik\\Desktop\\merlbtest\\Bangalore_torpedo\\BangaloreTorpedo" } } } } } }] } } }
+2026-02-08T21:25:29.075030Z  INFO ThreadId(01) Config loaded for BANGALORE 1.0.0.0
+2026-02-08T21:25:29.075092Z TRACE ThreadId(01) Scanning C:\Users\matik\Desktop\merlbtest\Bangalore_torpedo\BangaloreTorpedo\addons for addons
+2026-02-08T21:25:29.075450Z DEBUG ThreadId(01) using global config directory: "C:\\Users\\matik\\AppData\\Roaming\\hemtt"
+2026-02-08T21:25:29.076038Z  INFO ThreadId(01) Creating `dev` version
+2026-02-08T21:25:29.076071Z TRACE ThreadId(01) phase: init (BOM Check) (start)
+2026-02-08T21:25:29.076079Z TRACE ThreadId(01) phase: init (BOM Check) (done)
+2026-02-08T21:25:29.076084Z TRACE ThreadId(01) phase: init (Final New Line Check) (start)
+2026-02-08T21:25:29.076088Z TRACE ThreadId(01) phase: init (Final New Line Check) (done)
+2026-02-08T21:25:29.076091Z TRACE ThreadId(01) phase: init (git) (start)
+2026-02-08T21:25:29.076095Z TRACE ThreadId(01) phase: init (git) (done)
+2026-02-08T21:25:29.076099Z TRACE ThreadId(01) phase: init (Hooks) (start)
+2026-02-08T21:25:29.076132Z TRACE ThreadId(01) no hooks folder
+2026-02-08T21:25:29.076138Z TRACE ThreadId(01) phase: init (Hooks) (done)
+2026-02-08T21:25:29.076142Z TRACE ThreadId(01) phase: init (tex_headers) (start)
+2026-02-08T21:25:29.076146Z TRACE ThreadId(01) phase: init (tex_headers) (done)
+2026-02-08T21:25:29.076151Z TRACE ThreadId(01) phase: init (Files) (start)
+2026-02-08T21:25:29.076155Z TRACE ThreadId(01) phase: init (Files) (done)
+2026-02-08T21:25:29.076158Z TRACE ThreadId(01) phase: init (FilePatching) (start)
+2026-02-08T21:25:29.076163Z TRACE ThreadId(01) phase: init (FilePatching) (done)
+2026-02-08T21:25:29.076166Z TRACE ThreadId(01) phase: init (summary) (start)
+2026-02-08T21:25:29.076170Z TRACE ThreadId(01) phase: init (summary) (done)
+2026-02-08T21:25:29.076173Z TRACE ThreadId(01) phase: init (Rapifier) (start)
+2026-02-08T21:25:29.076177Z TRACE ThreadId(01) phase: init (Rapifier) (done)
+2026-02-08T21:25:29.076181Z TRACE ThreadId(01) phase: init (SQF) (start)
+2026-02-08T21:25:29.476722Z TRACE ThreadId(01) phase: init (SQF) (done)
+2026-02-08T21:25:29.476737Z TRACE ThreadId(01) phase: init (Stringtables) (start)
+2026-02-08T21:25:29.476742Z TRACE ThreadId(01) phase: init (Stringtables) (done)
+2026-02-08T21:25:29.476746Z TRACE ThreadId(01) phase: check (BOM Check) (start)
+2026-02-08T21:25:29.477784Z TRACE ThreadId(01) phase: check (BOM Check) (done)
+2026-02-08T21:25:29.477794Z TRACE ThreadId(01) phase: check (Final New Line Check) (start)
+2026-02-08T21:25:29.478749Z TRACE ThreadId(01) phase: check (Final New Line Check) (done)
+2026-02-08T21:25:29.478756Z TRACE ThreadId(01) phase: check (git) (start)
+2026-02-08T21:25:29.486368Z  WARN ThreadId(01) .hemttprivatekey is not in your .gitignore file.
+2026-02-08T21:25:29.492286Z TRACE ThreadId(01) phase: check (git) (done)
+2026-02-08T21:25:29.492295Z TRACE ThreadId(01) phase: check (Hooks) (start)
+2026-02-08T21:25:29.492299Z TRACE ThreadId(01) phase: check (Hooks) (done)
+2026-02-08T21:25:29.492302Z TRACE ThreadId(01) phase: check (tex_headers) (start)
+2026-02-08T21:25:29.492305Z TRACE ThreadId(01) phase: check (tex_headers) (done)
+2026-02-08T21:25:29.492308Z TRACE ThreadId(01) phase: check (Files) (start)
+2026-02-08T21:25:29.492311Z TRACE ThreadId(01) phase: check (Files) (done)
+2026-02-08T21:25:29.492314Z TRACE ThreadId(01) phase: check (FilePatching) (start)
+2026-02-08T21:25:29.492317Z TRACE ThreadId(01) phase: check (FilePatching) (done)
+2026-02-08T21:25:29.492320Z TRACE ThreadId(01) phase: check (summary) (start)
+2026-02-08T21:25:29.492323Z TRACE ThreadId(01) phase: check (summary) (done)
+2026-02-08T21:25:29.492326Z TRACE ThreadId(01) phase: check (Rapifier) (start)
+2026-02-08T21:25:29.492379Z TRACE ThreadId(01) phase: check (Rapifier) (done)
+2026-02-08T21:25:29.492383Z TRACE ThreadId(01) phase: check (SQF) (start)
+2026-02-08T21:25:29.492440Z TRACE ThreadId(01) phase: check (SQF) (done)
+2026-02-08T21:25:29.492444Z TRACE ThreadId(01) phase: check (Stringtables) (start)
+2026-02-08T21:25:29.492469Z TRACE ThreadId(01) phase: check (Stringtables) (done)
+2026-02-08T21:25:29.492472Z TRACE ThreadId(01) phase: pre_build (BOM Check) (start)
+2026-02-08T21:25:29.492476Z TRACE ThreadId(01) phase: pre_build (BOM Check) (done)
+2026-02-08T21:25:29.492479Z TRACE ThreadId(01) phase: pre_build (Final New Line Check) (start)
+2026-02-08T21:25:29.492482Z TRACE ThreadId(01) phase: pre_build (Final New Line Check) (done)
+2026-02-08T21:25:29.492484Z TRACE ThreadId(01) phase: pre_build (git) (start)
+2026-02-08T21:25:29.492487Z TRACE ThreadId(01) phase: pre_build (git) (done)
+2026-02-08T21:25:29.492490Z TRACE ThreadId(01) phase: pre_build (Hooks) (start)
+2026-02-08T21:25:29.492495Z TRACE ThreadId(01) phase: pre_build (Hooks) (done)
+2026-02-08T21:25:29.492497Z TRACE ThreadId(01) phase: pre_build (tex_headers) (start)
+2026-02-08T21:25:29.497040Z DEBUG ThreadId(04) Writing texture headers to "/addons/bangalore/texHeaders.bin"
+2026-02-08T21:25:29.497619Z  INFO ThreadId(01) Generated 1 texture headers
+2026-02-08T21:25:29.497642Z TRACE ThreadId(01) phase: pre_build (tex_headers) (done)
+2026-02-08T21:25:29.497649Z TRACE ThreadId(01) phase: pre_build (Files) (start)
+2026-02-08T21:25:29.497654Z TRACE ThreadId(01) phase: pre_build (Files) (done)
+2026-02-08T21:25:29.497657Z TRACE ThreadId(01) phase: pre_build (FilePatching) (start)
+2026-02-08T21:25:29.497995Z TRACE ThreadId(04) junction link "C:\\Users\\matik\\Desktop\\merlbtest\\Bangalore_torpedo\\BangaloreTorpedo\\.hemttout\\dev\\addons\\main" => "C:\\Users\\matik\\Desktop\\merlbtest\\Bangalore_torpedo\\BangaloreTorpedo\\addons\\main"
+2026-02-08T21:25:29.497993Z TRACE ThreadId(03) junction link "C:\\Users\\matik\\Desktop\\merlbtest\\Bangalore_torpedo\\BangaloreTorpedo\\.hemttout\\dev\\addons\\bangalore" => "C:\\Users\\matik\\Desktop\\merlbtest\\Bangalore_torpedo\\BangaloreTorpedo\\addons\\bangalore"
+2026-02-08T21:25:29.519201Z TRACE ThreadId(01) phase: pre_build (FilePatching) (done)
+2026-02-08T21:25:29.519221Z TRACE ThreadId(01) phase: pre_build (summary) (start)
+2026-02-08T21:25:29.519226Z TRACE ThreadId(01) phase: pre_build (summary) (done)
+2026-02-08T21:25:29.519230Z TRACE ThreadId(01) phase: pre_build (Rapifier) (start)
+2026-02-08T21:25:29.546372Z  INFO ThreadId(01) Rapified 3 addon configs
+2026-02-08T21:25:29.546418Z TRACE ThreadId(01) phase: pre_build (Rapifier) (done)
+2026-02-08T21:25:29.546426Z TRACE ThreadId(01) phase: pre_build (SQF) (start)
+2026-02-08T21:25:29.555480Z TRACE ThreadId(03) sqf compiling /addons/bangalore/XEH_postInit.sqf
+2026-02-08T21:25:29.555499Z TRACE ThreadId(09) sqf compiling /addons/main/XEH_preStart.sqf
+2026-02-08T21:25:29.555486Z TRACE ThreadId(05) sqf compiling /addons/bangalore/functions/fnc_detonate.sqf
+2026-02-08T21:25:29.555493Z TRACE ThreadId(06) sqf compiling /addons/main/XEH_preInit.sqf
+2026-02-08T21:25:29.555480Z TRACE ThreadId(04) sqf compiling /addons/main/XEH_postInit.sqf
+2026-02-08T21:25:29.566110Z  INFO ThreadId(01) Compiled 5 sqf files
+2026-02-08T21:25:29.566168Z TRACE ThreadId(01) phase: pre_build (SQF) (done)
+2026-02-08T21:25:29.566176Z TRACE ThreadId(01) phase: pre_build (Stringtables) (start)
+2026-02-08T21:25:29.571094Z  INFO ThreadId(01) Checked 0 stringtables
+2026-02-08T21:25:29.571122Z TRACE ThreadId(01) phase: pre_build (Stringtables) (done)
+2026-02-08T21:25:29.571129Z TRACE ThreadId(01) phase: build (start)
+2026-02-08T21:25:29.588746Z DEBUG ThreadId(01) "C:\\Users\\matik\\Desktop\\merlbtest\\Bangalore_torpedo\\BangaloreTorpedo\\.hemttout\\dev\\addons" already exists
+2026-02-08T21:25:29.588770Z DEBUG ThreadId(01) building "addons/bangalore" => "C:\\Users\\matik\\Desktop\\merlbtest\\Bangalore_torpedo\\BangaloreTorpedo\\.hemttout\\dev\\addons\\bangalore_bangalore.pbo"
+2026-02-08T21:25:29.590755Z TRACE ThreadId(01) adding file "texHeaders.bin"
+2026-02-08T21:25:29.590777Z TRACE ThreadId(01) adding file "config.bin"
+2026-02-08T21:25:29.590873Z TRACE ThreadId(01) adding file "CfgWeapons.hpp"
+2026-02-08T21:25:29.591052Z TRACE ThreadId(01) adding file "CfgMagazines.hpp"
+2026-02-08T21:25:29.591519Z TRACE ThreadId(01) adding file "CfgAmmo.hpp"
+2026-02-08T21:25:29.591619Z TRACE ThreadId(01) adding file "XEH_postInit.sqfc"
+2026-02-08T21:25:29.591716Z TRACE ThreadId(01) adding file "CfgVehicles.hpp"
+2026-02-08T21:25:29.592009Z TRACE ThreadId(01) adding file "script_component.hpp"
+2026-02-08T21:25:29.592186Z TRACE ThreadId(01) adding file "CfgEventHandlers.hpp"
+2026-02-08T21:25:29.592370Z TRACE ThreadId(01) adding file "XEH_postInit.sqf"
+2026-02-08T21:25:29.592544Z TRACE ThreadId(01) adding file "data\\Bangalore.p3d"
+2026-02-08T21:25:29.592713Z TRACE ThreadId(01) adding file "data\\bangalore_ico.paa"
+2026-02-08T21:25:29.592798Z TRACE ThreadId(01) adding file "data\\myMat.rvmat"
+2026-02-08T21:25:29.592888Z TRACE ThreadId(01) adding file "data\\WorldGridMaterial_albedo.paa"
+2026-02-08T21:25:29.593056Z TRACE ThreadId(01) adding file "data\\WorldGridMaterial_metallic.paa"
+2026-02-08T21:25:29.593221Z TRACE ThreadId(01) adding file "data\\WorldGridMaterial_AO.paa"
+2026-02-08T21:25:29.593389Z TRACE ThreadId(01) adding file "data\\WorldGridMaterial_roughness.paa"
+2026-02-08T21:25:29.593555Z TRACE ThreadId(01) adding file "data\\WorldGridMaterial_normal.paa"
+2026-02-08T21:25:29.593639Z TRACE ThreadId(01) adding file "functions\\fnc_detonate.sqfc"
+2026-02-08T21:25:29.593732Z TRACE ThreadId(01) adding file "functions\\fnc_detonate.sqf"
+2026-02-08T21:25:29.598783Z DEBUG ThreadId(01) "C:\\Users\\matik\\Desktop\\merlbtest\\Bangalore_torpedo\\BangaloreTorpedo\\.hemttout\\dev\\addons" already exists
+2026-02-08T21:25:29.598802Z DEBUG ThreadId(01) building "addons/main" => "C:\\Users\\matik\\Desktop\\merlbtest\\Bangalore_torpedo\\BangaloreTorpedo\\.hemttout\\dev\\addons\\bangalore_main.pbo"
+2026-02-08T21:25:29.600357Z TRACE ThreadId(01) adding file "CfgEventHandlers.hpp"
+2026-02-08T21:25:29.600593Z TRACE ThreadId(01) adding file "XEH_preStart.sqf"
+2026-02-08T21:25:29.600775Z TRACE ThreadId(01) adding file "XEH_PREP.hpp"
+2026-02-08T21:25:29.600868Z TRACE ThreadId(01) adding file "XEH_preInit.sqfc"
+2026-02-08T21:25:29.600966Z TRACE ThreadId(01) adding file "XEH_postInit.sqf"
+2026-02-08T21:25:29.601236Z TRACE ThreadId(01) adding file "XEH_preInit.sqf"
+2026-02-08T21:25:29.601409Z TRACE ThreadId(01) adding file "script_debug.hpp"
+2026-02-08T21:25:29.601498Z TRACE ThreadId(01) adding file "XEH_preStart.sqfc"
+2026-02-08T21:25:29.601604Z TRACE ThreadId(01) adding file "script_macros.hpp"
+2026-02-08T21:25:29.601693Z TRACE ThreadId(01) adding file "config.bin"
+2026-02-08T21:25:29.602017Z TRACE ThreadId(01) adding file "script_component.hpp"
+2026-02-08T21:25:29.602210Z TRACE ThreadId(01) adding file "script_version.hpp"
+2026-02-08T21:25:29.602362Z TRACE ThreadId(01) adding file "script_mod.hpp"
+2026-02-08T21:25:29.602440Z TRACE ThreadId(01) adding file "XEH_postInit.sqfc"
+2026-02-08T21:25:29.602522Z TRACE ThreadId(01) adding file "README.md"
+2026-02-08T21:25:29.602698Z TRACE ThreadId(01) adding file "CfgModuleCategories.hpp"
+2026-02-08T21:25:29.603885Z  INFO ThreadId(01) Built 2 PBOs
+2026-02-08T21:25:29.603908Z TRACE ThreadId(01) phase: build (done)
+2026-02-08T21:25:29.603917Z TRACE ThreadId(01) phase: post_build (BOM Check) (start)
+2026-02-08T21:25:29.603921Z TRACE ThreadId(01) phase: post_build (BOM Check) (done)
+2026-02-08T21:25:29.603925Z TRACE ThreadId(01) phase: post_build (Final New Line Check) (start)
+2026-02-08T21:25:29.603929Z TRACE ThreadId(01) phase: post_build (Final New Line Check) (done)
+2026-02-08T21:25:29.603933Z TRACE ThreadId(01) phase: post_build (git) (start)
+2026-02-08T21:25:29.603937Z TRACE ThreadId(01) phase: post_build (git) (done)
+2026-02-08T21:25:29.603941Z TRACE ThreadId(01) phase: post_build (Hooks) (start)
+2026-02-08T21:25:29.603945Z TRACE ThreadId(01) phase: post_build (Hooks) (done)
+2026-02-08T21:25:29.603949Z TRACE ThreadId(01) phase: post_build (tex_headers) (start)
+2026-02-08T21:25:29.603952Z TRACE ThreadId(01) phase: post_build (tex_headers) (done)
+2026-02-08T21:25:29.603956Z TRACE ThreadId(01) phase: post_build (Files) (start)
+2026-02-08T21:25:29.656624Z DEBUG ThreadId(01) copying "/LICENSE" => "C:\\Users\\matik\\Desktop\\merlbtest\\Bangalore_torpedo\\BangaloreTorpedo\\.hemttout\\dev\\LICENSE"
+2026-02-08T21:25:29.657466Z DEBUG ThreadId(01) copying "/bangalore_logo.paa" => "C:\\Users\\matik\\Desktop\\merlbtest\\Bangalore_torpedo\\BangaloreTorpedo\\.hemttout\\dev\\bangalore_logo.paa"
+2026-02-08T21:25:29.658842Z DEBUG ThreadId(01) copying "/README.md" => "C:\\Users\\matik\\Desktop\\merlbtest\\Bangalore_torpedo\\BangaloreTorpedo\\.hemttout\\dev\\README.md"
+2026-02-08T21:25:29.659614Z DEBUG ThreadId(01) copying "/mod.cpp" => "C:\\Users\\matik\\Desktop\\merlbtest\\Bangalore_torpedo\\BangaloreTorpedo\\.hemttout\\dev\\mod.cpp"
+2026-02-08T21:25:29.661159Z  INFO ThreadId(01) Copied 4 files
+2026-02-08T21:25:29.661181Z TRACE ThreadId(01) phase: post_build (Files) (done)
+2026-02-08T21:25:29.661188Z TRACE ThreadId(01) phase: post_build (FilePatching) (start)
+2026-02-08T21:25:29.661304Z TRACE ThreadId(01) junction link "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Arma 3\\z\\bangalore" => "C:\\Users\\matik\\Desktop\\merlbtest\\Bangalore_torpedo\\BangaloreTorpedo\\.hemttout\\dev"
+2026-02-08T21:25:29.678445Z  INFO ThreadId(01) Symlink created at C:\Program Files (x86)\Steam\steamapps\common\Arma 3\z\bangalore
+2026-02-08T21:25:29.678471Z TRACE ThreadId(01) phase: post_build (FilePatching) (done)
+2026-02-08T21:25:29.678477Z TRACE ThreadId(01) phase: post_build (summary) (start)
+2026-02-08T21:25:29.679635Z TRACE ThreadId(01) phase: post_build (summary) (done)
+2026-02-08T21:25:29.679644Z TRACE ThreadId(01) phase: post_build (Rapifier) (start)
+2026-02-08T21:25:29.679649Z TRACE ThreadId(01) phase: post_build (Rapifier) (done)
+2026-02-08T21:25:29.679653Z TRACE ThreadId(01) phase: post_build (SQF) (start)
+2026-02-08T21:25:29.679663Z TRACE ThreadId(01) phase: post_build (SQF) (done)
+2026-02-08T21:25:29.679668Z TRACE ThreadId(01) phase: post_build (Stringtables) (start)
+2026-02-08T21:25:29.679672Z TRACE ThreadId(01) phase: post_build (Stringtables) (done)
+2026-02-08T21:25:29.688792Z  INFO ThreadId(01) Launching "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Arma 3" with:
+  -mod="C:\Program Files (x86)\Steam\steamapps\workshop\content\107410\1638341685"
+  -mod="C:\Program Files (x86)\Steam\steamapps\workshop\content\107410\3499977893"
+  -mod="C:\Program Files (x86)\Steam\steamapps\workshop\content\107410\450814997"
+  -mod="C:\Program Files (x86)\Steam\steamapps\workshop\content\107410\463939057"
+  -mod="C:\Users\matik\Desktop\merlbtest\Bangalore_torpedo\BangaloreTorpedo\.hemttout/dev"
+  -skipIntro
+  -noSplash
+  -showScriptErrors
+  -debug
+  -filePatching
+2026-02-08T21:25:29.748933Z TRACE ThreadId(01) writing ci annotations to .hemttout/ci_annotations.txt
+2026-02-08T21:25:29.749060Z TRACE ThreadId(01) wrote 0 ci annotations to .hemttout/ci_annotations.txt

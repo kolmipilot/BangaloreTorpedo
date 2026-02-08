@@ -1,0 +1,12 @@
+name = "Advanced Combat Environment 3 - Project Template";
+picture = "bangalore_logo.paa";
+actionName = "GitHub";
+action = "https://github.com/acemod/arma-project-template";
+description = "Project Template";
+logo = "bangalore_logo.paa";
+logoOver = "bangalore_logo.paa";
+tooltip = "ACE3 Project Template";
+tooltipOwned = "ACE3 Project Template Owned";
+overview = "Advanced Combat Environment 3 Project Template";
+author = "ACE3 Team";
+overviewPicture = "logo_ace3_ca.paa";

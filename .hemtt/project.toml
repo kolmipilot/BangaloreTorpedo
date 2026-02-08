@@ -1,0 +1,16 @@
+name = "BANGALORE"
+prefix = "bangalore"
+author = "kolmipilot"
+mainprefix = "z"
+
+
+[files]
+include = [
+    "mod.cpp",
+    "README.md",
+    "LICENSE.md",
+    "bangalore_logo.paa"
+]
+
+[version]
+git_hash = 0
