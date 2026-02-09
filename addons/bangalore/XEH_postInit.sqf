@@ -18,14 +18,20 @@ if (!hasInterface) exitWith {};
 [{ 
     params ["_unit", "_range", "_bomb", "_fuzeTime", "_triggerItem"];
     if(typeOf _bomb == QGVAR(Bangalore_Ammo)) then {
-    private _array = nearestObjects [_bomb, [], 6];
+    private _array = nearestObjects [_bomb, [], GVAR(ChargeRange)];
     {   
         if (_x isKindOf "Wall_F") then {
             _x setDamage [1, true, _bomb];
             deleteVehicle _x;
         };
+        if(GVAR(DestroyObjects)) then {
+        if (typeOf _x in GETMVAR(GVAR(availAdditionObjects),objNull)) then {
+            _x setDamage [1, true, _bomb];
+            deleteVehicle _x;
+        };
+        };
     } forEach _array;
-    private _array2 = nearestTerrainObjects [_bomb, ["FENCE", "WALL"], 6];
+    private _array2 = nearestTerrainObjects [_bomb, ["FENCE", "WALL"], GVAR(ChargeRange)];
     {
             _x setDamage [1, true, _bomb];
             deleteVehicle _x;
