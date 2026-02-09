@@ -3,7 +3,7 @@
     Fast Recompiling via function
 **/
 // #define DISABLE_COMPILE_CACHE
-// To Use: [] call IBC_PREP_RECOMPILE;
+// To Use: [] call BANGALORE_PREP_RECOMPILE;
 
 #ifdef DISABLE_COMPILE_CACHE
     #define LINKFUNC(x) {_this call FUNC(x)}

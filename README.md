@@ -11,13 +11,13 @@ Sketchfab model used as a reference/resource:
 ## Features
 - Bangalore Torpedo explosive made with ace explosives framework.
 - Scripted ability to destroy walls, placed from eden or map objects.
+- Ability to add additionals objects to be destroyed. Can be configured in addon settings.
 
 ## Usage
 - Bangalore Torpedo is placed in ace arsenal in explosives tab.
 
 Notes:
 - Effectiveness is optimized for common fortifications like barbed wire, light barricades, and concrete walls.
-- In the future effective size of explosion will be configurable from addon settings.
 
 ## Dependencies
 - CBA_A3

@@ -16,7 +16,7 @@ import xml.etree.ElementTree as ET
 
 
 ######## GLOBALS #########
-PROJECT_NAME = "IBC"
+PROJECT_NAME = "Bangalore"
 ##########################
 
 

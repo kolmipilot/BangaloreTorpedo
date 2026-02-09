@@ -43,7 +43,7 @@
 #define QGETGVAR(var1,var2) QUOTE(GETMVAR(QGVAR(var1),var2))
 
 // Extension Macros
-#define EXT "ibc_mods"
+#define EXT "bangalore_mods"
 
 #ifdef DISABLE_COMPILE_CACHE
     #undef PREP
@@ -53,5 +53,5 @@
     #define PREP(fncName) [QPATHTOF(functions\DOUBLES(fnc,fncName).sqf), QFUNC(fncName)] call CBA_fnc_compileFunction
 #endif
 
-// IBC Debug macros
+// Bangalore Debug macros
 #include "\z\bangalore\addons\main\script_debug.hpp"
