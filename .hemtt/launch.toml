@@ -14,3 +14,10 @@ workshop = [
     "843593391", # RHSGREF's Workshop ID
     "843632231" # RHSSAF's Workshop ID
 ]
+
+[cup]
+extends = "default"
+workshop = [
+    "583544987", # CUP Terrains - Maps
+    "583496184" # CUP Terrains - Core
+]

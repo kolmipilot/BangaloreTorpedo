@@ -12,7 +12,7 @@
     "CHECKBOX",
     [LLSTRING(SETTING_DESTROY_OBJECTS), LLSTRING(SETTING_DESTROY_OBJECTS_DISC)],
     LLSTRING(SETTING_CATEGORY_BANGALORE),
-    false,
+    true,
     true
 ] call CBA_fnc_addSetting;
 
@@ -21,7 +21,7 @@
     "EDITBOX",
     [LLSTRING(SETTING_ADDITION_OBJECTS), LLSTRING(SETTING_ADDITION_OBJECTS_DISC)],
     LLSTRING(SETTING_CATEGORY_BANGALORE),
-    "''",
+    "'Wire', 'ACE_ConcertinaWire'",
     1,
     {
         private _array = [_this, "CfgVehicles"] call FUNC(getList);
