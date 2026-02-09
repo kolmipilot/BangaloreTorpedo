@@ -7,3 +7,5 @@ texHeaders.bin
 *.biprivatekey
 Thumbs.db
 .hemttout/
+.hemttout/*
+releases/*
