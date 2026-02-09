@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="Bangalore">
     <Package name="Bangalore">
-        <Key ID="str_bangalore_bangalore_setting_charge_range">
-            <English>Bangalore Charge Range</English>
-        </Key>
-        <Key ID="str_bangalore_bangalore_setting_charge_range_disc">
-            <English>Range of the Bangalore charge.</English>
-        </Key>
-        <Key ID="str_bangalore_bangalore_setting_category_bangalore">
-            <English>Bangalore</English>
-        </Key>
-        <Key ID="str_bangalore_bangalore_setting_addition_objects">
+        <Key ID="STR_Bangalore_Bangalore_setting_addition_objects">
             <English>Additional Objects</English>
         </Key>
-        <Key ID="str_bangalore_bangalore_setting_addition_objects_disc">
+        <Key ID="STR_Bangalore_Bangalore_setting_addition_objects_disc">
             <English>Additional objects to be destroyed by the Bangalore charge. Classnames separated by a comma. e.g 'Wall_f', 'Fence_f'</English>
         </Key>
-        <Key ID="str_bangalore_bangalore_setting_destroy_objects">
+        <Key ID="STR_Bangalore_Bangalore_setting_category_bangalore">
+            <English>Bangalore</English>
+        </Key>
+        <Key ID="STR_Bangalore_Bangalore_setting_charge_range">
+            <English>Bangalore Charge Range</English>
+        </Key>
+        <Key ID="STR_Bangalore_Bangalore_setting_charge_range_disc">
+            <English>Range of the Bangalore charge.</English>
+        </Key>
+        <Key ID="STR_Bangalore_Bangalore_setting_destroy_objects">
             <English>Destroy Additionals Objects</English>
         </Key>
-        <Key ID="str_bangalore_bangalore_setting_destroy_objects_disc">
+        <Key ID="STR_Bangalore_Bangalore_setting_destroy_objects_disc">
             <English>Whether the Bangalore charge should destroy additionals objects in its blast radius (Configured below).</English>
         </Key>
     </Package>
