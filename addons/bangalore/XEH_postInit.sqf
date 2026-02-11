@@ -25,19 +25,19 @@ if (!hasInterface) exitWith {};
             deleteVehicle _x;
         };
         if(GVAR(DestroyObjects)) then {
-        if (typeOf _x in GETMVAR(GVAR(availAdditionObjects),objNull)) then {
-            _x setDamage [1, true, _bomb];
-            deleteVehicle _x;
-        };
+            if (typeOf _x in GETMVAR(GVAR(availAdditionObjects),objNull)) then {
+                _x setDamage [1, true, _bomb];
+                deleteVehicle _x;
+            };
         };
     } forEach _array;
     private _array2 = nearestTerrainObjects [_bomb, ["FENCE", "WALL"], GVAR(ChargeRange)];
     {
-            _x setDamage [1, true, _bomb];
-            deleteVehicle _x;
+        _x setDamage [1, true, _bomb];
+        deleteVehicle _x;
     } forEach _array2;
-    true;
+        true;
     } else {
-    true;
+        true;
     }
 }] call ace_explosives_fnc_addDetonateHandler;
