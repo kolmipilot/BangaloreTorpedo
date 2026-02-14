@@ -1,6 +1,3 @@
-### WIP NOT READY YET, JUST TEMPLATE
-
-
 # Bangalore Torpedo – Arma 3 Mod
 
 A lightweight Arma 3 mod that adds a functional Bangalore Torpedo for breaching field obstacles such as barbed wire, concertina, light barricades, and similar obstructions. The mod provides a dedicated explosive device and simple gameplay interactions to clear lanes through defenses during assaults.
